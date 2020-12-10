@@ -12,14 +12,14 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 300,
       "density": {
-        "enable": true,
-        "value_area": 800
+        "enable": false,
+        "value_area": 500
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#d90e24"
     },
     "shape": {
       "type": "circle",
@@ -37,21 +37,21 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.3,
       "random": false,
       "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
+        "enable": true,
+        "speed": 0.45,
+        "opacity_min": 0,
         "sync": false
       }
     },
     "size": {
-      "value": 3,
+      "value": 30,
       "random": true,
       "anim": {
-        "enable": false,
-        "speed": 40,
+        "enable": true,
+        "speed": 1,
         "size_min": 0.1,
         "sync": false
       }
@@ -67,47 +67,47 @@ particlesJS("particles-js", {
       "enable": true,
       "speed": 1,
       "direction": "none",
-      "random": false,
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
+        "rotateX": 500,
+        "rotateY": 500
       }
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "bubble"
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 140,
+        "distance": 20,
         "line_linked": {
           "opacity": 1
         }
       },
       "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
+        "distance": 300,
+        "size": 1,
+        "duration": 3,
+        "opacity": 0,
+        "speed": 1
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 400,
+        "duration": 1
       },
       "push": {
         "particles_nb": 4
@@ -219,7 +219,7 @@ particlesJS("particles-js", {
   // jQuery counterUp
   $('.counter').counterUp({
     delay: 5,
-    time: 3000
+    time: 8000
   });
 
   // Skills section
