@@ -234,8 +234,28 @@ particlesJS("particles-js", {
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
-    dots: true,
+    dots: false,
     loop: true,
+    smartSpeed: 450,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      900: {
+        items: 3
+      }
+    }
+  });
+
+  $(".customer-carousel").owlCarousel({
+    autoplay: true,
+    dots: false,
+    loop: true,
+    autoWidth: true,
+    smartSpeed: 600,
     responsive: {
       0: {
         items: 1
