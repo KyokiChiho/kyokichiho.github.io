@@ -219,7 +219,7 @@ particlesJS("particles-js", {
   // jQuery counterUp
   $('.counter').counterUp({
     delay: 5,
-    time: 8000
+    time: 4000
   });
 
   // Skills section
